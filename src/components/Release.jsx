@@ -1,7 +1,6 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import release1 from "../assets/release1.png";
-import release2 from "../assets/release2.png";
 import Card from "./Card";
 
 export default function Release() {
@@ -9,19 +8,11 @@ export default function Release() {
     <div className="releases">
       <div className="release orange">
         <div className="content">
-          <h2 className="title">Initial Release 4/11</h2>
+          <h2 className="title">Why buy gold with bitcoin?</h2>
           <p className="description">
-            We have released four limited edition NFTs early which can be bid on
-            via <a href="#">OpenSea</a>
+          We accept a wide variety of cryptocurrencies. You can buy gold with Bitcoin, Ethereum, stablecoins and more.
+All our orders are carefully packaged and 100% insured. Gold has proven to be a stable investment for centuries. If you buy gold with bitcoin you are less exposed to the volatility risk of bitcoin and you spread your investments among multiple assets classes. This will diversify your investment portfolio and limit your risk.<a href="#">show more</a>
           </p>
-          <p className="description">
-            There will be the only four of these NFTs we ever make, so be sure
-            not to miss out!
-          </p>
-          <p className="description">50% of proceeds go to charity.</p>
-          <a href="#" className="link">
-            Check them out <BsArrowRight />
-          </a>
         </div>
         <div className="image">
           <img src={release1} alt="release" />
@@ -30,30 +21,7 @@ export default function Release() {
       </div>
       <div className="release green">
         <div className="card-container">
-          <Card
-            image={release2}
-            series="Gloop Series"
-            title="Purple Man"
-            price={3.95}
-            tag="1094"
-            time={2}
-          />
-          <div className="ellipse orange"></div>
-        </div>
-        <div className="content">
-          <h2 className="title">Initial Release 4/11</h2>
-          <p className="description">
-            We have released four limited edition NFTs early which can be bid on
-            via <a href="#">OpenSea</a>
-          </p>
-          <p className="description">
-            There will be the only four of these NFTs we ever make, so be sure
-            not to miss out!
-          </p>
-          <p className="description">50% of proceeds go to charity.</p>
-          <a href="#" className="link">
-            Check them out <BsArrowRight />
-          </a>
+          
         </div>
       </div>
     </div>

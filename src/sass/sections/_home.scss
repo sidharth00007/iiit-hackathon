@@ -19,23 +19,21 @@
         color: var(--accent-color1);
       }
       .description {
-        color: #fff;
+        color: var(--accent-color3);
       }
       button {
         color: var(--accent-color1);
-        // background-color: var(--background);
+        background-color: var(--background);
         font-weight: bold;
         padding: 1rem 3rem;
         border-radius: 2rem;
         box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
-        // border: solid 3px transparent;
-        // background-image: linear-gradient(
-        //     rgba(255, 255, 255, 0),
-        //     rgba(255, 255, 255, 0)
-        //   ),
-        //   linear-gradient(101deg, var(--pink), var(--orange));
-          background: rgb(209,167,16);
-          background: linear-gradient(208deg, rgba(209,167,16,1) 32.78%, rgba(100,78,26,1) 80.68%)  !important ; 
+        border: solid 3px transparent;
+        background-image: linear-gradient(
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0)
+          ),
+          linear-gradient(101deg, var(--pink), var(--orange));
         background-origin: border-box;
         background-clip: content-box, border-box;
         box-shadow: 2px 1000px 1px var(--background) inset;
@@ -46,24 +44,12 @@
         }
       }
     }
-    .btn1{
-      display: inline-block;
-        }
     .image-container {
-    
-      
-      // background: url(Gold-Coins-iphone-4s.jpg);
-      border-radius: 24px;
+      text-align: center;
       position: relative;
       z-index: 10;
       .image {
         img {
-          // text-align: center;
-      // position:fixed;
-      width: 550px;
-      height: 500px;
-      left: 1003px;
-      top: 503px;
         }
       }
       .ellipse-container {

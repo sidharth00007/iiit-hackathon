@@ -9,11 +9,9 @@
     .title {
       color: var(--accent-color1);
       font-size: 2.4rem;
-      text-align: center;
     }
     .description {
       color: var(--accent-color3);
-      text-align: center;
       a {
         color: var(--accent-color3);
         font-weight: bold;
@@ -23,38 +21,8 @@
   .cards {
     display: flex;
     justify-content: space-evenly;
-    gap: 3rem;
+    gap: 5rem;
   }
-}
-.btn3{
-    color: var(--accent-color1);
-    // background-color: var(--background);
-    font-weight: bold;
-    padding: 1rem 3rem;
-    border-radius: 2rem;
-    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
-    
-    // border: solid 3px transparent;
-    // background-image: linear-gradient(
-    //     rgba(255, 255, 255, 0),
-    //     rgba(255, 255, 255, 0)
-    //   ),
-    //   linear-gradient(101deg, var(--pink), var(--orange));
-      background: rgb(209,167,16);
-      background: linear-gradient(208deg, rgba(209,167,16,1) 32.78%, rgba(100,78,26,1) 80.68%)  !important ; 
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    box-shadow: 2px 1000px 1px var(--background) inset;
-    transition: 0.5s ease-in-out;
-    // width: 10vh;
-    // font-size: ;
-    width: 15%;
-    text-align: center;  
-    cursor: pointer;
-    margin-left: 500px;
-    &:hover {
-      box-shadow: none;
-    }
 }
 
 @media screen and (min-width: 280px) and (max-width: 1080px) {

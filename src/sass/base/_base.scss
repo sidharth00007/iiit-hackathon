@@ -33,8 +33,7 @@ html {
 }
 
 .app-container {
-  background: rgb(209,167,16);
-background: linear-gradient(113deg, rgba(209,167,16,1) -30.3%, rgba(100,78,26,1) 58.12%);
+  background-color: var(--background);
   font-family: var(--font-family);
   overflow-x: hidden;
   transition: 0.5s ease-in-out;
